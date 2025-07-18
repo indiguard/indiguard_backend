@@ -1,0 +1,35 @@
+/* Admin panel logo */
+.brand-link img {
+    max-height: 40px !important;
+    width: auto !important;
+    object-fit: contain;
+}
+
+/* Login logo rounded */
+.login-logo img {
+    max-height: 150px !important;
+    width: auto !important;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+
+/* Login page background image */
+body.login-page {
+    background: url("/static/images/Login_bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Make login box semi-transparent */
+.login-box {
+    background-color: rgba(143, 73, 73, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+/* Change the color of the welcome sign to black */
+.main-header .navbar-brand .welcome-sign {
+    color: black !important;
+}
