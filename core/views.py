@@ -15,7 +15,7 @@ class JobApplicationView(APIView):
             proof_address = request.FILES.get('proofOfAddress')
 
             # 🔽 Add your logo URL here
-            logo_url = "https://indi-backend.onrender.com/static/images/indiguard_logo.jpeg"
+            logo_url = "https://indiguard-backend.onrender.com/static/images/indiguard_logo.jpeg"
 
             # 🔽 Start the email body with the logo
             html_body = f"""
@@ -147,7 +147,7 @@ Consent Given: {"Yes" if data.get('consent') else "No"}
         <body>
           <div class="container">
             <div class="logo">
-              <img src="https://indi-backend.onrender.com/static/images/indiguard_logo.jpeg" alt="Company Logo" />
+              <img src="https://indiguard-backend.onrender.com/static/images/indiguard_logo.jpeg" alt="Company Logo" />
             </div>
             <div class="company-name">IndiGuard Security</div>
 
