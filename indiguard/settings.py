@@ -84,7 +84,7 @@ USE_TZ = True
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://www.indiguardsecurity.co.uk",
-    "https://indi-frontend.vercel.app",
+    "https://indiguard-frontend.vercel.app",
 ]
 
 JAZZMIN_SETTINGS = {
