@@ -10,7 +10,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'indiguardsecurity.co.uk',
     'www.indiguardsecurity.co.uk',
-    'indi-backend.onrender.com',
+    'https://indiguard-backend.onrender.com',
 ]
 
 # Application definition
